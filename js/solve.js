@@ -14,7 +14,7 @@ let massPopChart = new Chart(myChart, {
       data:[
         334,
         615,
-        1050,
+        1097,
         164,
         207 
       ],
@@ -36,7 +36,7 @@ let massPopChart = new Chart(myChart, {
   options:{
     title:{
       display:true,
-      text:'Total number of solves: 2370',
+      text:'Total number of solves: 2417',
       fontSize:25
     },
     legend:{
