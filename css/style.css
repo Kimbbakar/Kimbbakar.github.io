@@ -73,7 +73,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: black;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -181,14 +181,17 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 25px 0 45px 0;
+	color: #121d1f;
+    padding: 0px 0 20px 0;
 }
 /* About Section */
 #about {
 	padding: 100px 0;
 	background: #f6f6f6;
+	height: 100%;
 }
 #about .about-text {
+	color: #121d1f;
 	margin-left: 10px;
 }
 #about img {
@@ -392,7 +395,6 @@ hr {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
 }
 #contact h2 {
 	color: #fff;
@@ -458,9 +460,11 @@ color: #2c3e50;
 .form-control:-ms-input-placeholder {
 color: #2c3e50;
 }
-#contact .social {
-	margin-top: 60px;
+
+#resume-button {
+	padding-top: 5px;
 }
+
 #contact .social ul li {
 	display: inline-block;
 	margin: 0 20px;
@@ -468,12 +472,10 @@ color: #2c3e50;
 #contact .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	color: #fff;
+	color: #121d1f;
 	transition: all 0.5s;
 }
-#contact .social i.fa:hover {
-	color: #121d1f;
-}
+
 #contact .btn {
 	background-color: transparent;
 	border: 1px solid #fff;
