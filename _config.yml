@@ -1,1 +1,64 @@
+# Site settings
+title: "Osman Chowdhury - Lead Software Engineer"
+description: "Experienced Lead Software Engineer with 6+ years in backend development, specializing in Go, scalable systems, and software architecture."
+url: "https://osman-chowdhury.me"
+baseurl: ""
+
+# Author information
+author:
+  name: "Osman Chowdhury"
+  email: ""
+  github: "Kimbbakar"
+  linkedin: "kimbbakar"
+  twitter: "kimbbakar"
+
+# SEO settings
+lang: "en"
+timezone: "UTC"
+
+# Theme
 theme: jekyll-theme-tactile
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Include files
+include:
+  - .htaccess
+
+# Collections and defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Osman Chowdhury"
+
+# Social media
+social:
+  name: "Osman Chowdhury"
+  links:
+    - "https://github.com/Kimbbakar"
+    - "https://www.linkedin.com/in/kimbbakar/"
+    - "https://twitter.com/kimbbakar"
+    - "https://www.facebook.com/kimbbakar"
+
+# Google site verification (add your verification code when available)
+# google_site_verification: ""
+
+# Analytics (add when available)
+# google_analytics: ""
