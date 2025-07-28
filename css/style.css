@@ -14,7 +14,7 @@
 	--white: #fff;
 	--link-color: #333;
 	--error-color: #E87E04;
-	
+
 	/* Typography */
 	--font-primary: 'Open Sans', sans-serif;
 	--font-secondary: 'Lato', sans-serif;
@@ -23,7 +23,7 @@
 	--font-weight-medium: 600;
 	--font-weight-bold: 700;
 	--font-weight-black: 900;
-	
+
 	/* Spacing */
 	--spacing-xs: 10px;
 	--spacing-sm: 20px;
@@ -31,16 +31,16 @@
 	--spacing-lg: 40px;
 	--spacing-xl: 100px;
 	--spacing-xxl: 120px;
-	
+
 	/* Border Radius */
 	--border-radius-sm: 2px;
 	--border-radius-md: 10px;
 	--border-radius-circle: 50%;
-	
+
 	/* Transitions */
 	--transition-fast: 0.3s ease-in-out;
 	--transition-medium: 0.5s;
-	
+
 	/* Shadows */
 	--shadow-light: 0 0 5px rgba(154, 167, 40, 0.7);
 	--shadow-medium: 0 0 15px rgba(154, 167, 40, 0.7);
@@ -948,14 +948,14 @@ select:focus {
 	.social {
 		display: none;
 	}
-	
+
 	body {
 		font-size: 12pt;
 		line-height: 1.4;
 		color: #000;
 		background: #fff;
 	}
-	
+
 	a {
 		color: #000;
 		text-decoration: underline;
