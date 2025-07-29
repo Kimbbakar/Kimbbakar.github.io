@@ -623,6 +623,14 @@ hr {
 	transform: scale(1.2);
 }
 
+#contact .social a:focus {
+	outline: none;
+}
+
+#zinglab-float:focus {
+	outline: none;
+}
+
 label {
 	font-size: 12px;
 	font-weight: var(--font-weight-normal);
